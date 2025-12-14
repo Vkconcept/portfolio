@@ -6,9 +6,8 @@ import glowDentImg from "../assets/glowdent.jpg";
 import novaraFoundationImg from "../assets/novara-foundation.jpg";
 import eduSphereImg from "../assets/edusphere.jpg";
 import fitHackImg from "../assets/fithack.jpg";
-import primeNestImg from "../assets/prime-nest.jpg";
-import velouraJewelsImg from "../assets/veloura-jewels.jpg";
-import aureasGlowImg from "../assets/aureas-glow.jpg";
+import swiftMoveImg from "../assets/SwiftMoveLogistics.jpg";
+import Veloraspa from "../assets/Veloraspa.jpg";
 import HairbyveeImg from "../assets/hairbyvee.jpg";
 const Projects = ({ isDark }) => {
   const projects = [
@@ -34,7 +33,7 @@ const Projects = ({ isDark }) => {
       featured: true,
     },
     {
-      id: 2,
+      id: 3,
       title: "Naija Kitchen",
       description:
         "A Nigerian food menu website with filterable categories. Users can explore authentic dishes, view recipes, and browse meal types easily.",
@@ -45,18 +44,39 @@ const Projects = ({ isDark }) => {
       featured: true,
     },
     {
-      id: 3,
-      title: "GlowDent",
+      id: 4,
+      title: "Velora Spa",
       description:
-        "A modern dental clinic website featuring services with responsive design.",
-      image: glowDentImg,
-      technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      githubUrl: "https://github.com/Vkconcept/GlowDent",
-      liveUrl: "https://vkconcept.github.io/GlowDent/",
+        "A modern spa and wellness website built with React and Tailwind CSS, designed to deliver a calm, luxurious experience with service highlights, spa features, FAQs, and a fully responsive layout.",
+      image: Veloraspa,
+      technologies: [
+        "React",
+        "Tailwind CSS",
+        "JavaScript",
+        "Responsive Design",
+      ],
+      githubUrl: "https://github.com/Vkconcept/Velora-Spa",
+      liveUrl: "https://velora-spa.netlify.app/",
       featured: true,
     },
     {
-      id: 4,
+      id: 5,
+      title: "SwiftMove Logistics",
+      description:
+        "A modern logistics platform built with React and Tailwind CSS, offering delivery services, shipment tracking, and seamless customer experience.",
+      image: swiftMoveImg,
+      technologies: [
+        "React",
+        "Tailwind CSS",
+        "JavaScript",
+        "Responsive Design",
+      ],
+      githubUrl: "https://github.com/Vkconcept/SwiftMove-Logistics",
+      liveUrl: "https://swiftmovelogistic.netlify.app/",
+      featured: true,
+    },
+    {
+      id: 6,
       title: "Novara Foundation",
       description:
         "Non-profit organization website showcasing programs, community impact, and donation integration.",
@@ -67,7 +87,7 @@ const Projects = ({ isDark }) => {
       featured: true,
     },
     {
-      id: 5,
+      id: 7,
       title: "EduSphere",
       description: "University landing page with course sign-ups.",
       image: eduSphereImg,
@@ -77,7 +97,7 @@ const Projects = ({ isDark }) => {
       featured: true,
     },
     {
-      id: 6,
+      id: 8,
       title: "FitHack",
       description: "A fitness landing page.",
       image: fitHackImg,
@@ -87,36 +107,14 @@ const Projects = ({ isDark }) => {
       featured: true,
     },
     {
-      id: 7,
-      title: "PrimeNest Estate",
-      description:
-        "Real estate platform featuring property listings, advanced search, and agent profiles.",
-      image: primeNestImg,
-      technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      githubUrl: "https://github.com/Vkconcept/PrimeNest-estate",
-      liveUrl: "https://vkconcept.github.io/PrimeNest-estate/",
-      featured: true,
-    },
-    {
-      id: 8,
-      title: "Veloura Jewels",
-      description:
-        "Jewelry store website showcasing elegant products with categories and product galleries.",
-      image: velouraJewelsImg,
-      technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      githubUrl: "https://github.com/Vkconcept/Veloura-Jewels",
-      liveUrl: "https://vkconcept.github.io/Veloura-Jewels/",
-      featured: true,
-    },
-    {
       id: 9,
-      title: "Aureas Glow",
+      title: "GlowDent",
       description:
-        "Skincare and beauty products website with product catalogs and skin type recommendations.",
-      image: aureasGlowImg,
+        "A modern dental clinic website featuring services with responsive design.",
+      image: glowDentImg,
       technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      githubUrl: "https://github.com/Vkconcept/Aureas-Glow",
-      liveUrl: "https://vkconcept.github.io/Aureas-Glow/",
+      githubUrl: "https://github.com/Vkconcept/GlowDent",
+      liveUrl: "https://vkconcept.github.io/GlowDent/",
       featured: true,
     },
   ];
