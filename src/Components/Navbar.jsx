@@ -92,16 +92,20 @@ const Navbar = ({ isDark, toggleTheme }) => {
             </li>
           ))}
 
-          {/* Resume */}
-          <li
-            style={{ transitionDelay: `${navLinks.length * 100}ms` }}
-            className={`transform transition-all duration-500 ease-out ${menuOpen ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}
-          >
-            <button className="w-full px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg font-medium transition-colors">
-              Resume
-            </button>
-          </li>
-
+         {/* Resume */}
+<li
+  style={{ transitionDelay: `${navLinks.length * 100}ms` }}
+  className={`transform transition-all duration-500 ease-out ${menuOpen ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}
+>
+  <a
+    href="/WILLIAMS VICTOR RESUME.pdf" 
+    download
+    className="w-full block px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors text-center"
+  >
+    Resume
+  </a>
+</li>
+      
           {/* Theme Toggle */}
           <li
             style={{ transitionDelay: `${(navLinks.length + 1) * 100}ms` }}
