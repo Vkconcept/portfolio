@@ -8,17 +8,17 @@ import eduSphereImg from "../assets/edusphere.jpg";
 import fitHackImg from "../assets/fithack.jpg";
 import swiftMoveImg from "../assets/SwiftMoveLogistics.jpg";
 import Veloraspa from "../assets/Veloraspa.jpg";
-import HairbyveeImg from "../assets/hairbyvee.jpg";
+import RoyalAnkaraImg from "../assets/royalankara.jpg";
 const Projects = ({ isDark }) => {
   const projects = [
     {
       id: 1,
-      title: "Hairbyvee",
+      title: "Royalankara",
       description:
-        "A modern hair brand website built with WordPress, showcasing premium wigs, hair extensions, and beauty products. Customers can browse collections, view product details, read customer reviews, and place orders effortlessly.",
-      image: HairbyveeImg,
+        "A modern eCommerce website designed for showcasing and selling premium Ankara fabrics, ready-to-wear outfits, and fashion accessories. Customers can browse collections, explore product details, add items to their cart, and enjoy a seamless online shopping experience.",
+      image: RoyalAnkaraImg,
       technologies: ["WordPress", "WooCommerce", "PHP", "CSS"],
-      liveUrl: "https://hairbyvee.great-site.net/",
+      liveUrl: "https://royalankara.great-site.net/",
       featured: true,
     },
     {
